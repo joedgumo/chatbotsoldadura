@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: chatbot-soldadura
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot_telegram_soldadura_gemini_sqlite_rag.py"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false

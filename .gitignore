@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos
+.env
+.venv/
+venv/
+env/
+
+# Base de datos
+*.db
+
+# Logs
+*.log
+
+# RAG / PDFs
+kb_pdfs/
+kb_welding_pdfs/
+
+# FAISS index
+*.index
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.bak
